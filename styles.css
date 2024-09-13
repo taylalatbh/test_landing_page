@@ -143,3 +143,44 @@ button {
     font-weight: bold;
     text-align: right;
 }
+
+/* section 5 */
+
+.signup {
+    background-color: #3882f6;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    margin: 80px;
+    align-items: center;
+}
+
+.finalbutton {
+    border: 2px solid white;
+    padding: 6px 10px;
+    max-width: 100px;
+    font-weight: bold;
+    border-radius: 6px;
+    display: flex;
+}
+
+.textsignup {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.finalbuttondiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 80px;
+}
+
+h2, p {
+    margin-left: 100px;
+    padding: 0;
+}
